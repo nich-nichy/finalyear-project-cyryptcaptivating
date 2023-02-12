@@ -1,1 +1,1 @@
-Hey this is front end
+This is the front end part of Crypt Captivating.
