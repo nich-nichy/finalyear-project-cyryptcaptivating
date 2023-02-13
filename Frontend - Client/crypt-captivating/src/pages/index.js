@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
-import { Navbar, Hero } from "../../components/index";
+import { Navbar, Hero, Footer } from "../../components/index";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +28,9 @@ export default function Home() {
         {/* Pricing */}
         {/* Description */}
         {/* Footer */}
+        <div className="footer">
+          <Footer />
+        </div>
       </main>
     </>
   );
